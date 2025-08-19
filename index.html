@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Layout</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="header"><img src="header.jpg">
+            <div class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </div>
+        </div>
+
+        <div class="slideshow">
+        <div class="slide fade">
+            <div class="numbertext">1/3</div>
+            <img src="item1.jpg" style="width: 100%;" alt="">
+            <div class="text">Texto 1</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="numbertext">2/3</div>
+            <img src="item2.jpg" style="width: 100%;" alt="">
+            <div class="text">Texto 2</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="numbertext">3/3</div>
+            <img src="item3.jpg" style="width: 100%;" alt="">
+            <div class="text">Texto 3</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094</a>
+        <a class="next" onclick="plusSlide(1)">&#10095</a>
+        </div>
+
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+        <div class="main-container">
+            <div class="content1"><img src="item.jpg".jpg></div>
+
+            <div class="content2">
+                <div class="subcontent1">
+                    <div><img src="item1.jpg".jpg></div>
+                    <div><img src="item2.jpg".jpg></div>
+                </div>
+                <div class="subcontent2">
+                    <div><img src="item3.jpg".jpg></div>
+                    <div><img src="item4.jpg".jpg></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+<!--<script src=""></script>-->
+</html>
