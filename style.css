@@ -15,6 +15,7 @@
 }
 .header{
     align-items:baseline;
+    backgroud-color: #5E6E64;
 }
 .header, .footer, .content1, .content2>div>div{
     flex: 1;
@@ -101,3 +102,4 @@ img {
     background-color: #5E6E64;
     color: #2A231B;
 }
+
